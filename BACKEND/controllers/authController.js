@@ -38,6 +38,7 @@ exports.login = async (req, res) => {
         // Genera el token con el rol y el id
         const token = jwt.sign({ id: user.id || user.id_usuario, rol }, 'secreto123', { expiresIn: '1h' });
 
+        // Guarda el token en la base de datos si es necesario
         // Devuelve el rol y el nombre/correo
         res.json({
             success: true,
