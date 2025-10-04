@@ -1,3 +1,9 @@
+/**
+ * @file controllers/credito.controller.js
+ * @description Controlador para la gestión de créditos vinculados a clientes o ventas: creación, consulta y pago de créditos.
+ * @exports: handlers para CRUD y operaciones sobre créditos.
+ */
+
 const pool = require("../config/db");
 
 // Obtener todos los créditos

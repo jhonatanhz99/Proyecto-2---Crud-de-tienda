@@ -1,3 +1,9 @@
+/**
+ * @file models/clientes.model.js
+ * @description Consultas y funciones de acceso a datos para la entidad `clientes` usando el pool de `config/db.js`.
+ * @exports: funciones que realizan SELECT, INSERT, UPDATE y DELETE sobre la tabla clientes.
+ */
+
 const pool = require("../config/db");
 
 const agregarCliente = async (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, telefono, direccion, email, tipo_cliente, limite_credito) => {

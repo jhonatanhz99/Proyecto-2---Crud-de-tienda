@@ -1,3 +1,9 @@
+/**
+ * @file models/usuario.js
+ * @description Modelo/consultas para usuarios: creación, búsqueda por correo/ID y validación de credenciales.
+ * @exports: funciones para acceder a la tabla usuarios.
+ */
+
 const db = require('../config/db');
 
 const Usuario = {

@@ -1,3 +1,9 @@
+/**
+ * @file models/productos.model.js
+ * @description Queries para la tabla `productos`: listado, creación, actualización y eliminación.
+ * @exports: funciones que manipulan productos en BD.
+ */
+
 const pool = require("../config/db");
 
 const agregarProducto = async (nombre, descripcion, precio, stock, categoria) => {

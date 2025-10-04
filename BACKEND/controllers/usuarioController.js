@@ -1,3 +1,9 @@
+/**
+ * @file controllers/usuarioController.js
+ * @description Controlador para la gestión de usuarios del sistema: registro, listado, roles y permisos.
+ * @exports: handlers relacionados con usuarios.
+ */
+
 const Usuario = require('../models/usuario');
 
 exports.listar = async (req, res) => {

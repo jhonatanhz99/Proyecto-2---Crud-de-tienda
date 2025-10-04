@@ -1,3 +1,9 @@
+/**
+ * @file models/detalle_ventas.model.js
+ * @description Acceso a datos para las líneas de venta (detalle_ventas): inserciones y consultas por venta.
+ * @exports: funciones para manipular detalle_ventas.
+ */
+
 const pool = require("../config/db");
 
 const crearDetalleVenta = async (id_venta, id_producto, cantidad, precio_unitario, subtotal) => {

@@ -1,3 +1,9 @@
+/**
+ * @file controllers/proveedores.controller.js
+ * @description Controlador para la gestión de proveedores: CRUD y consultas.
+ * @exports: handlers para proveedores.
+ */
+
 const pool = require("../config/db");
 
 // Obtener todos los proveedores

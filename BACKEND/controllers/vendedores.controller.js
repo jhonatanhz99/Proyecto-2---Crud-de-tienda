@@ -1,3 +1,9 @@
+/**
+ * @file controllers/vendedores.controller.js
+ * @description Controlador para operaciones sobre vendedores: listado, asignación de ventas y comisiones.
+ * @exports: handlers para vendedores.
+ */
+
 const pool = require("../config/db");
 
 // Obtener todos los vendedores

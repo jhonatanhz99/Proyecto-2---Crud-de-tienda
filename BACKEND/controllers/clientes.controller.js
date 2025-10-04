@@ -1,3 +1,9 @@
+/**
+ * @file controllers/clientes.controller.js
+ * @description Controlador para operaciones sobre clientes: listar, obtener por id, crear, actualizar y eliminar.
+ * @exports: handlers CRUD para la entidad cliente.
+ */
+
 const pool = require("../config/db");
 
 // Obtener todos los clientes

@@ -1,3 +1,9 @@
+/**
+ * @file server.js
+ * @description Punto de entrada del servidor Express. Configura middlewares globales, rutas y arranca el servidor en el puerto definido por `process.env.PORT` o 3000 por defecto.
+ * @notes Sirve archivos estáticos en `/login-frontend` y monta las rutas bajo `/api/...`.
+ */
+
 require('dotenv').config();
 const express = require("express");
 const dotenv = require("dotenv");

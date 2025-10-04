@@ -1,3 +1,9 @@
+/**
+ * @file models/pagos.model.js
+ * @description Funciones de acceso a datos para registrar y consultar pagos.
+ * @exports: funciones para insertar y consultar pagos.
+ */
+
 const pool = require("../config/db");
 
 const registrarPago = async (id_cliente, monto, fecha_pago, metodo_pago) => {

@@ -1,3 +1,9 @@
+/**
+ * @file controllers/authController.js
+ * @description Controlador de autenticación: manejo de login, validación de credenciales y emisión de tokens JWT. También puede incluir funciones para refrescar/verificar tokens.
+ * @exports funciones relacionadas con autenticación (login, verify, etc.)
+ */
+
 const db = require('../config/db');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');

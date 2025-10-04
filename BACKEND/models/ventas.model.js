@@ -1,3 +1,9 @@
+/**
+ * @file models/ventas.model.js
+ * @description Funciones de acceso a datos para la entidad ventas: crear venta, obtener por id, listar y totales.
+ * @exports: funciones para manipular la tabla ventas.
+ */
+
 const pool = require("../config/db");
 
 const agregarVenta = async (id_cliente, id_vendedor, fecha_venta, total) => {

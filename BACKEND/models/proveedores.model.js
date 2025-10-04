@@ -1,3 +1,9 @@
+/**
+ * @file models/proveedores.model.js
+ * @description Funciones para CRUD de proveedores en la base de datos.
+ * @exports: funciones para gestionar proveedores.
+ */
+
 const pool = require("../config/db");
 
 const agregarProveedor = async (nombre, contacto, telefono, direccion, email) => {

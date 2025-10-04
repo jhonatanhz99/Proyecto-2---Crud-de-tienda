@@ -1,3 +1,9 @@
+/**
+ * @file controllers/inventario.controller.js
+ * @description Controlador de inventario: consulta de existencias, movimientos, y ajustes de stock.
+ * @exports: handlers para obtener/actualizar inventario.
+ */
+
 const pool = require("../config/db");
 
 const obtenerInventario = async (req, res) => {

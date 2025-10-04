@@ -1,3 +1,9 @@
+/**
+ * @file models/comisiones.model.js
+ * @description Funciones de acceso a datos para comisiones: consultas y cálculos almacenados.
+ * @exports: funciones que retornan comisiones por vendedor/periodo.
+ */
+
 const pool = require("../config/db");
 
 const crearComision = async (monto, fecha, id_vendedor) => {

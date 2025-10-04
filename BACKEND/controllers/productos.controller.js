@@ -1,3 +1,9 @@
+/**
+ * @file controllers/productos.controller.js
+ * @description Controlador para CRUD de productos: listado, búsqueda, creación, actualización y eliminación.
+ * @exports: handlers CRUD para productos.
+ */
+
 const pool = require("../config/db");
 
 // Obtener todos los productos

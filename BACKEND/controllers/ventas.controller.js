@@ -1,3 +1,9 @@
+/**
+ * @file controllers/ventas.controller.js
+ * @description Controlador para crear y consultar ventas, calcular totales y cambiar estados de venta.
+ * @exports: handlers para operaciones sobre ventas.
+ */
+
 const pool = require("../config/db");
 
 const obtenerVentas = async (req, res) => {

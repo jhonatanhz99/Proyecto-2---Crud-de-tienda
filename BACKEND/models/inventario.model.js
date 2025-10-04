@@ -1,3 +1,9 @@
+/**
+ * @file models/inventario.model.js
+ * @description Consultas sobre inventario: obtener existencias, registros de movimiento, y actualizaciones de stock.
+ * @exports: funciones para el manejo de inventario.
+ */
+
 const pool = require("../config/db");
 
 const agregarProductoInventario = async (id_producto, cantidad_disponible, ubicacion, fecha_ingreso) => {

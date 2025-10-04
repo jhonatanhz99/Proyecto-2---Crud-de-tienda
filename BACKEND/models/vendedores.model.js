@@ -1,3 +1,9 @@
+/**
+ * @file models/vendedores.model.js
+ * @description Consultas para la entidad vendedores: listado, creación y asociación con ventas/comisiones.
+ * @exports: funciones CRUD para vendedores.
+ */
+
 const pool = require("../config/db");
 
 const agregarVendedor = async (nombre, apellido, telefono, email, comision) => {

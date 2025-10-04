@@ -1,3 +1,9 @@
+/**
+ * @file controllers/pagos.controller.js
+ * @description Controlador para registrar y consultar pagos relacionados con ventas o créditos.
+ * @exports: handlers para crear y listar pagos.
+ */
+
 const pool = require("../config/db");
 
 // Obtener todos los pagos

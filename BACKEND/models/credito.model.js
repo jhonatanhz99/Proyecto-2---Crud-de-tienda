@@ -1,3 +1,9 @@
+/**
+ * @file models/credito.model.js
+ * @description Queries y funciones para la entidad crédito: creación, consulta de saldos y pagos.
+ * @exports: funciones que interactúan con la tabla de créditos.
+ */
+
 const pool = require("../config/db");
 
 const crearCredito = async (id_cliente, monto, fecha_inicio, fecha_vencimiento, tasa_interes) => {

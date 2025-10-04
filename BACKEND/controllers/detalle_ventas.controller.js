@@ -1,3 +1,9 @@
+/**
+ * @file controllers/detalle_ventas.controller.js
+ * @description Controlador para manejar las líneas de una venta (producto, cantidad, precio unitario) y operaciones relacionadas.
+ * @exports: funciones para insertar, listar y eliminar detalles de venta.
+ */
+
 const pool = require("../config/db");
 
 // Obtener todos los detalles de ventas

@@ -1,3 +1,9 @@
+/**
+ * @file controllers/comisiones.controller.js
+ * @description Controlador para consultas y operaciones relacionadas con comisiones de vendedores.
+ * @exports: funciones para calcular/listar comisiones y CRUD asociado.
+ */
+
 const pool = require("../config/db");
 
 // Obtener todas las comisiones
